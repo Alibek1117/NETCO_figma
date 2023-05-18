@@ -635,7 +635,7 @@ footer {
 
     .header__hero p {
         margin-top: -27px;
-        width: 332px;
+        width: 272px;
         height: 58px;
         font-size: 15px;
     }
@@ -667,6 +667,22 @@ footer {
         display: none;
     }
 
+    .header__footer{
+        margin-right: 0;
+    }
+
+    
+
+.header__footer__left{
+    gap: 10px;
+}
+.header__hero h2 {
+   width: 272px;
+}
+.header__hero p{
+    margin-top: 20px;
+    width: 173px;
+}
     #navbar.open {
         width: 90%;
         height: 64px;
@@ -682,5 +698,9 @@ footer {
             font-size: 19px;
             line-height: 25px;
         }
+    }
+
+    .footer__card2 {
+        gap: 0;
     }
 }

@@ -138,3 +138,9 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .catalog__hero__title {
+        width: 290px;
+    }
+}

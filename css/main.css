@@ -516,7 +516,7 @@ footer .footer__card .social__link a {
   }
   .header__hero p {
     margin-top: -27px;
-    width: 332px;
+    width: 272px;
     height: 58px;
     font-size: 15px;
   }
@@ -541,6 +541,19 @@ footer .footer__card .social__link a {
   .top__contact img {
     display: none;
   }
+  .header__footer {
+    margin-right: 0;
+  }
+  .header__footer__left {
+    gap: 10px;
+  }
+  .header__hero h2 {
+    width: 272px;
+  }
+  .header__hero p {
+    margin-top: 20px;
+    width: 173px;
+  }
   #navbar.open {
     width: 90%;
     height: 64px;
@@ -555,6 +568,9 @@ footer .footer__card .social__link a {
   #navbar.open a {
     font-size: 19px;
     line-height: 25px;
+  }
+  .footer__card2 {
+    gap: 0;
   }
 }
 @font-face {
@@ -674,5 +690,10 @@ footer .footer__card .social__link a {
     height: 31px;
     font-size: 26px;
     line-height: 21px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .catalog__hero__title {
+    width: 290px;
   }
 }/*# sourceMappingURL=main.css.map */
