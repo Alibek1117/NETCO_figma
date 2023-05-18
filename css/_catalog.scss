@@ -1,0 +1,140 @@
+.catalog__header {
+    height: 70px;
+
+}
+
+.catalog__hero {
+    .catalog__hero__title {
+        margin: 50px auto;
+        width: 466px;
+        height: 41px;
+        left: 487px;
+        top: 130px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 41px;
+        color: #07003B;
+
+    }
+
+    .row {
+        margin-top: 100px;
+
+        p {
+            margin-top: 10px;
+            font-family: 'DIN Pro';
+            font-size: 17px;
+            line-height: 23px;
+            color: #000000;
+
+            position: relative;
+        }
+
+        p::before {
+            content: " ";
+            width: 0%;
+            height: 3px;
+            border-radius: 2px;
+            background-color: #07003B;
+            position: absolute;
+            left: 50%;
+            bottom: -5px;
+            z-index: 1;
+            transform: translateX(-50%);
+            transition: 0.5s;
+        }
+
+        .col:hover {
+            p::before {
+                width: 80%;
+            }
+
+            img,
+            p {
+                transform: scale(1.1);
+                transition: 1s;
+            }
+        }
+
+        .vecctor:active {
+            transform: scale(0.95);
+            transition: 0.3s;
+        }
+
+    }
+}
+
+.btn3 {
+    width: 166px;
+    margin: auto;
+    float: center;
+}
+
+.katalog__container {
+    text-align: center;
+}
+
+.btn3 {
+    margin: 60px auto;
+    border: none;
+    padding: 13px 36px;
+    background-color: #07003B;
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.btn3:hover,
+.btn2:hover,
+.btn1:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 10px 10px black;
+}
+
+.btn3:active,
+.btn2:active,
+.btn1:active {
+    transform: scale(1);
+}
+
+
+
+.color__img {
+    margin-right: 200px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .kick1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .kick2 {
+        display: none;
+    }
+
+    .catalog__hero__title {
+        margin: 50px auto;
+        width: 366px;
+        height: 31px;
+        font-size: 26px;
+        line-height: 21px;
+
+    }
+
+}
