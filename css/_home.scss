@@ -675,6 +675,9 @@ footer {
 
 .header__footer__left{
     gap: 10px;
+    .social__link{
+        flex-direction: column;
+    }
 }
 .header__hero h2 {
    width: 272px;
@@ -682,6 +685,8 @@ footer {
 .header__hero p{
     margin-top: 20px;
     width: 173px;
+    height: 100px;
+    margin-bottom: 20px;
 }
     #navbar.open {
         width: 90%;
