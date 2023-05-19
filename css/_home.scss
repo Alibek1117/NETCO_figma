@@ -679,6 +679,10 @@ footer {
         display: none;
     }
 
+    .header__hero .btn1 {
+        margin: 50px auto;
+    }
+
     .header__footer{
         margin-right: 0;
         justify-content: center;
@@ -695,6 +699,7 @@ footer {
 
     section.bonus .bonus__card {
         width: 290px;
+        text-align: center;
     }
 
     .sm__little{
@@ -717,10 +722,13 @@ footer {
 }
 .header__hero h2 {
    width: 272px;
+   text-align: center;
+   margin: 130px auto auto auto;
 }
 .header__hero p{
-    margin-top: 20px;
-    width: 173px;
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
     height: 100px;
     margin-bottom: 20px;
 }
