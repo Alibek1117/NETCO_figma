@@ -239,27 +239,35 @@ section.bonus .bonus__card .color__img {
 }
 section.bonus .card__img__1 {
   background-image: url(../imgs/card1.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__2 {
   background-image: url(../imgs/card2.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__3 {
   background-image: url(../imgs/card3.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__4 {
   background-image: url(../imgs/card4.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__5 {
   background-image: url(../imgs/card5.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__6 {
   background-image: url(../imgs/card6.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__7 {
   background-image: url(../imgs/card7.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__img__8 {
   background-image: url(../imgs/card8.png);
+  background-repeat: no-repeat;
 }
 section.bonus .card__button {
   margin: 20px 0;
@@ -387,6 +395,7 @@ footer .footer__card .tel .tel__num {
   color: #FFFFFF;
 }
 footer .footer__card .social__link a {
+  align-items: center;
   display: flex;
   gap: 5px;
   margin-left: 25px;
@@ -543,6 +552,18 @@ footer .footer__card .social__link a {
   }
   .header__footer {
     margin-right: 0;
+    justify-content: center;
+  }
+  section.bonus .bonus__card {
+    width: 290px;
+  }
+  .sm__little {
+    display: flex;
+    justify-content: center;
+  }
+  .btn2 {
+    margin: 0 auto;
+    float: none;
   }
   .header__footer__left {
     gap: 10px;
@@ -576,6 +597,15 @@ footer .footer__card .social__link a {
   }
   .footer__card2 {
     gap: 0;
+  }
+  footer .footer__card .social__link a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  footer .footer__card .social__link a img {
+    width: 30px;
   }
 }
 @font-face {
@@ -684,6 +714,9 @@ footer .footer__card .social__link a {
   .kick1 {
     display: none;
   }
+  header .container1 {
+    background: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .kick2 {
@@ -700,5 +733,17 @@ footer .footer__card .social__link a {
 @media only screen and (max-width: 768px) {
   .catalog__hero__title {
     width: 290px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .catalog__hero .catalog__hero__title {
+    width: 250px;
+    font-size: 32px;
+  }
+  .kick3 {
+    display: none;
+  }
+  .ar_btn {
+    width: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

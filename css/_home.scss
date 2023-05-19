@@ -187,6 +187,7 @@ section.bonus {
         background: #FFFFFF;
         box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
         border-radius: 3px;
+        
 
         .card__img {
             display: flex;
@@ -247,35 +248,44 @@ section.bonus {
 
     .card__img__1 {
         background-image: url(../imgs/card1.png);
+        background-repeat: no-repeat;
 
     }
 
     .card__img__2 {
         background-image: url(../imgs/card2.png);
+        background-repeat: no-repeat;
     }
 
     .card__img__3 {
         background-image: url(../imgs/card3.png);
+        background-repeat: no-repeat;
+
     }
 
     .card__img__4 {
         background-image: url(../imgs/card4.png);
+        background-repeat: no-repeat;
     }
 
     .card__img__5 {
         background-image: url(../imgs/card5.png);
+        background-repeat: no-repeat;
     }
 
     .card__img__6 {
         background-image: url(../imgs/card6.png);
+        background-repeat: no-repeat;
     }
 
     .card__img__7 {
         background-image: url(../imgs/card7.png);
+        background-repeat: no-repeat;
     }
 
     .card__img__8 {
         background-image: url(../imgs/card8.png);
+        background-repeat: no-repeat;
     }
 
     .card__button {
@@ -461,6 +471,7 @@ footer {
         }
 
         .social__link a {
+            align-items: center;
             display: flex;
             gap: 5px;
             margin-left: 25px;
@@ -521,6 +532,7 @@ footer {
             margin: 0 30px;
 
             a {
+
                 font-family: 'DIN Pro';
                 font-style: normal;
                 font-weight: 400;
@@ -669,6 +681,30 @@ footer {
 
     .header__footer{
         margin-right: 0;
+        justify-content: center;
+    }
+    // .bonus__card {
+    //     margin: 0 5px;
+    //     margin-bottom: 30px;
+    //     width: 290px;
+    //     height: 400px;
+    //     background: #FFFFFF;
+    //     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+    //     border-radius: 3px;
+    // }
+
+    section.bonus .bonus__card {
+        width: 290px;
+    }
+
+    .sm__little{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn2{
+        margin: 0 auto;
+        float: none;
     }
 
     
@@ -707,5 +743,15 @@ footer {
 
     .footer__card2 {
         gap: 0;
+    }
+
+    footer .footer__card .social__link a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        img{
+            width: 30px;
+        }
     }
 }
